@@ -1,0 +1,21 @@
+---
+title: "Home"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+This is an awesome website about data science 
+
+Sometimes i use [google](https://www.google.com/) to do data science when I am stuck. 
+
+If you want to include a picture to do this: 
+
+![](images/ted.jpg)
+
+If you'd like to learn more about this website, visit [this page](about.html)
+
