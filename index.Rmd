@@ -1,10 +1,21 @@
 ---
-title: "Home"
-output: html_document: 
-  toc: true
-  toc_float: true 
+title: "Lisa Pardee's Website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
-#Lisa's Professional Website 
+# Lisa's Portfolio Website 
 
+
+## Subsection 
+
+## Links 
+Links to useful tools 
+* [Github Account](https://github.com/lmp2234)
+* [Linkedln Profile](https://www.linkedin.com/in/lisa-pardee-001a41203/)
+
+# Link to resume 
+[Resume](about.html)
 
