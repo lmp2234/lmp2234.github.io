@@ -6,6 +6,116 @@ output:
     toc_float: true
 ---
 
-# Resume
+### Education
+
+
+#### Columbia University Mailman School of Public Health, New York    
+
+
+Master of Public Health Candidate, Epidemiology   ,   May 2025  
+
+Certificate in Applied Biostatistics and Data Science
+
+#### New York University, New York 
+
+Bachelor of Science, Global Public Health and Biology ,  May 2023
+
+
+### Professional Experience 
+
+#### Caceres Team - Columbia School of Nursing 
+
+##### Research Assistant 
+
+* Assisting in the implementation of a National Institute of Health-funded study centralized on influence of daily stressors on cardiovascular health.
+
+* Recruiting individuals for study participation and administering structured interviews.
+
+* Track the collection, submission, and cleaning of study data.
+
+* Assist with REDCap database design, security, data storage and management.
+
+#### Broadstreet COVID-19 Data Project February 2021-April 2023
+
+##### Research Intern
+
+• Obtained and recorded reliable data for U.S. cases to disseminate updated knowledge of COVID-19 cases.
+
+• Conducted data analysis on COVID-19 cases and mortalities nationwide.
+
+• Recorded daily numbers of on the Health Equity Team for COVID-19 cases by race and ethnicity.
+
+##### Community Health Needs Assessment Team Leader January 2022-April 2023
+
+• Oversee weekly data team sessions that worked on creating a qualitative dataset of the contents of Community Health Needs Assessments
+(CHNAs). This data is utilized to compare and analyze health needs and priorities without regard to the specific health system or size.
+
+• Disseminate weekly data entry assignments to team members
+
+• Perform quality assurance tasks to ensure precision and accuracy of datasets prior to uploading on GitHub
+
+#### The Impact Center June 2021-January 2022
+
+##### Women’s Leadership Institute Programming and Research Intern
+
+• Update existing curriculum and/or developing novel curriculum and materials on various leadership and management topics for WLE.
+
+• Supporting and collaborating with Impact Center staff in development and delivery of content to clients including team building sessions.
+
+• Researching scholarly articles and relevant data concerning the best practices in leadership and management to inform The Impact Center on the
+delivery of these topics.
+
+##### Programs and Operations Associate
+
+• Executed a range of assignments and tasks assigned by the CEO and Director of Programs and Operations.
+
+• Preparation of materials for Impact Center programs, research tasks, communications tasks, and operational/administrative support.
+
+### Research Experience
+
+####The Empower Lab June 2022 - August 2024
+
+##### Associate Director of Research 
+
+• Meet weekly with the Principal Investigator of the Empower Lab concerning each team and lab member progress.
+
+• Oversee tasks such as emails, communication to lab members, and creating all-team meeting agendas.
+
+• Responsible for interviewing, hiring, and onboarding new lab members.
+
+##### Asylum/Affidavit Team Lead 
+
+• Wrote a narrative review about applying a trauma-informed care practices to forensic medical evaluations for female asylum seekers.
+
+• Lead organized and effective team meetings.
+
+• Delegate weekly tasks to team members and ensure deadlines are met.
+
+• Set internal goals for the team to meet and push the progress of the narrative review forward.
+
+##### Empower Clinic Team Lead Lead
+
+• Creating a study design to detail service utilization among trafficking survivors presenting to the Empower Center.
+
+• Created longitudinal Redcap surveys to document patient data collected.
+
+
+### Publications 
+
+Annum Sadana, Sasha Elisabeth Gérard, Ashley Tang, Lisa Pardee, Olivia Sher, Ali Foote, Veronica Ades,
+Medical evidence in asylum applications: Medical versus legal approaches, Journal of Forensic and Legal Medicine, Volume 97, 2023,
+https://doi.org/10.1016/j.jflm.2023.102553. [Manuscript Published]
+
+### Conferences
+
+#### American Public Health Association Conference October 2024
+
+Pardee L, Hung Y, Patel G, Rahman L, Munoz N, Ades, V. (2024, October 29). A Trauma Informed Care Approach to Conducting Forensic Medical and Psychological Evaluations for Female Asylum Seekers [Oral Presentation]. American Public Health Association. Minneapolis, Minnesota 
+
+#### FIGO World Congress of Gynecology and Obstetrics October 2023
+Sadana A, Mathieson A, Kapur R, Charles L, Pardee L, Segall M, Ades, V. (2023, October 9). Empower Center: An Update on an Integrated, Trauma-
+Informed Care Model for Female Survivors of Commercial Sexual Exploitation [Poster Presented]. FIGO World Congress of Gynecology and Obstetrics.
+Paris, France.
+
 
 

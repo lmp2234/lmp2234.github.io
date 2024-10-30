@@ -1,0 +1,95 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library("p8105.datasets")
+library(dplyr)
+library(plotly)
+library(flexdashboard)
+library(janitor)
+library(stringr)
+```
+
+
+```{r}
+data("instacart")
+
+instacart <-
+  instacart %>%
+  clean_names() %>%
+    mutate(day = recode(order_dow, 
+                        `0` = "Sunday", 
+                        `1` = "Monday", 
+                        `2` = "Tuesday", 
+                        `3` = "Wednesday",
+                        `4` = "Thursday", 
+                        `5` = "Friday", 
+                        `6` = "Saturday"))%>%
+   select(user_id, order_hour_of_day, days_since_prior_order, reordered, day, department)  %>%
+    filter(
+      department %in% c("produce", "snacks", "deli", "frozen", "beverages", "pantry", "dairy eggs", "bakery")
+      ) %>%
+      drop_na()%>%
+sample_n(size = min(n(), 10000))
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart %>%
+  plot_ly(x = ~day , y  = ~order_hour_of_day, color = ~department, type = "box")%>%
+  layout(title = "Order Hour by Day and Department", 
+         xaxis = list(title = "Day of the Week"),
+         yaxis = list(title = "Order Hour of the Day"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>%
+  group_by(order_hour_of_day, department) %>%
+  summarize(avg_days = mean(days_since_prior_order, na.rm = TRUE)) %>%
+  plot_ly(x = ~order_hour_of_day, 
+          y = ~avg_days, 
+          type = 'scatter', 
+          mode = 'lines+markers',
+          color = ~department, 
+          text = ~paste("Department: ", department, "<br>Average Days: ", round(avg_days, 2)), 
+          marker = list(size = 5, color = 'lightblue')) %>%
+  layout(title = "Average Days Since Prior Order by Order Hour",
+         xaxis = list(title = "Order Hour of the Day"),
+         yaxis = list(title = "Average Days Since Prior Order"))
+```
+
+### Chart C
+
+```{r}
+instacart %>%
+  group_by(day, department)  %>%
+  summarize(order_count = n(), .groups = 'drop')  %>%
+  plot_ly(x = ~day, 
+          y = ~order_count, 
+          type = 'bar', 
+          text = ~department,
+          textposition = 'inside',
+          hoverinfo = 'text',
+          hovertext = ~paste("Orders: ", order_count))%>%
+    layout(title = "Number of Orders per Day by Department", 
+           xaxis = list(title = "Day of the Week"), 
+           yaxis = list(title = "Number of Orders"), 
+           barmode = 'group')
+```
+
